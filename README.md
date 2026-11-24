@@ -12,7 +12,7 @@
 This repository contains the complete, reproducible end-to-end clinical NLP modeling pipeline developed by team **Neural Ninjas** for **MedBhasha Round 2**. The pipeline addresses three clinical intelligence tasks built on top of a deduplicated and validated Bengali clinical corpus:
 
 1. **Clinical Named Entity Recognition (NER)**:
-   - Sequence modeling via Conditional Random Fields (CRF) trained on token morphology, affix windows, and transition constraints.
+   - Sequence modeling via Conditional Random Fields (CRF) trained on token morphology, affix windows, and transitional constraints.
    - Generates exact Unicode code-point character offsets (`start`, `end`) on all 1,691 test notes across the 10 official schema categories.
 2. **Unsupervised Phenotype Clustering & Graph Analytics**:
    - Extraction of entity co-occurrence profiles, dimensionality reduction via Truncated SVD, and clustering into 12 unsupervised phenotypes.
